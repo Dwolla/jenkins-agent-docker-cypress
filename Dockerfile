@@ -1,4 +1,6 @@
-FROM dwolla/jenkins-agent-nvm
+ARG NVM_TAG
+
+FROM dwolla/jenkins-agent-nvm:${NVM_TAG}
 LABEL maintainer="Dwolla Dev <dev+jenkins-cypress@dwolla.com>"
 LABEL org.label-schema.vcs-url="https://github.com/Dwolla/jenkins-agent-docker-cypress"
 
