@@ -1,4 +1,4 @@
-NVM_TAG := sha-0f12b09-core-sha-d3e1fed-11.0.14.1_1-jdk
+NVM_TAG := sha-a9c907d-core-4.13.2-1-jdk11-7b03219
 JOB := core-${NVM_TAG}
 CHECK_JOB := check-${NVM_TAG}
 CLEAN_JOB := clean-${NVM_TAG}
