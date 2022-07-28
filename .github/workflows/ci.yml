@@ -19,4 +19,4 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - run: echo "the build complete successfully"
+      - run: echo "The build completed successfully"
