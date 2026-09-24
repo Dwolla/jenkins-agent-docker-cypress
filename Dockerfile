@@ -8,14 +8,13 @@ USER root
 
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
-  libgtk2.0-0 \
-  libgtk-3-0 \
+  libgtk2.0-0t64 \
+  libgtk-3-0t64 \
   libnotify-dev \
-  libgconf-2-4 \
   libgbm-dev \
   libnss3 \
   libxss1 \
-  libasound2 \
+  libasound2t64 \
   libxtst6 \
   xauth \
   xvfb \
@@ -29,8 +28,8 @@ RUN apt-get update && \
   fonts-arphic-gkai00mp \
   fonts-arphic-ukai \
   fonts-arphic-uming \
-  ttf-wqy-zenhei \
-  ttf-wqy-microhei \
+  fonts-wqy-zenhei \
+  fonts-wqy-microhei \
   xfonts-wqy \
   # clean up
   && rm -rf /var/lib/apt/lists/*
